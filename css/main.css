@@ -18,5 +18,13 @@ ul {
 }
 
 #buttonParent {
-  margin-top: 1.1em;
+  margin-top: 1.5em;
+
+}
+
+input[type="button"], label {
+  display: inline-block; /* Change to inline-block */
+  height: auto; /* Set height to auto */
+  line-height: 1.1em; /* Adjust line height */
+  padding: 5px 10px; /* Add padding for better spacing */
 }
